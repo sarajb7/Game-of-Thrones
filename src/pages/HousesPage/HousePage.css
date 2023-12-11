@@ -1,0 +1,76 @@
+.body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.scrollable-container{
+    max-height: 75vh;
+    overflow: auto;
+    /* margin-left: 10vw; */
+    width: 80vw;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-family: 'JuegoDeTronos';
+    src: url("../../assets/fonts/GameofThrones.ttf")
+}
+.scrollable-container::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+.scrollable-container::-webkit-scrollbar:vertical {
+    width:5px;
+}
+.scrollable-container::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
+.scrollable-container::-webkit-scrollbar-track {
+    border-radius: 10px;  
+    background-color: #443d3d;
+}
+.navbar{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+.lupaybuscador{
+    margin-left: 5vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-bottom: 10px;
+    border-bottom-color: white;
+    border-bottom-style: solid ;
+}
+.cuerpito{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.houses-gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 77vw;
+    margin-right: 2vw;
+}
+.card{
+    margin-bottom: 4vw;
+}
+.houselogo{
+    width: 13vw;   
+    margin: 0 24px 0 20 px;
+}
+.housename{
+font-family: 'JuegoDeTronos';
+font-size: 1vw;
+font-weight: lighter;
+}
+.lupa{
+    width: 21px;
+    height: 21px;
+}
+

@@ -1,0 +1,36 @@
+.menuderecha{
+    height:12vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 156px;
+}
+
+.casa{
+    width: 52px;
+    height: 49.4px;
+    margin: 7px 28px 7.6px 0;
+    cursor: pointer;
+}
+
+.banderitaES{
+    width: 64px;
+  height: 64px;
+  margin: 0 29px 0 0;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.banderitaEN{
+    width: 64px;
+  height: 64px;
+  margin: 0 0 0 0;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+*{
+    text-decoration: none;
+    list-style: none;
+}
+

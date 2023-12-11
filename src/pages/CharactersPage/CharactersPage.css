@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'JuegoDeTronos';
+    src: url("../../assets/fonts/GameofThrones.ttf")
+}
+.characters{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.high-div{
+    height: 15vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+.cuerpo{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+.lupa{
+    width: 30px;
+    height: 21px;
+}
+.finder{
+    width: 600px;
+    background-color: transparent;
+    border: none;
+    color: white; 
+    margin-left: 8px;
+}
+.menuidiomasCharacters{
+    height: 20vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.house{
+    height: 40px;
+    width: 40px;
+    margin: 5%;
+}
+.banderaEsp{
+    width: 64px;
+    height: 45px;
+}
+.banderaUk{
+    width: 64px;
+    height: 45px;
+    margin: 5%;
+
+}
+.scroll{
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+}
+.simplebar-track {
+    background-color: rgba(77, 77, 77, 0.503); 
+    border-radius: 5px;
+    max-width: 5px;
+}
+
+.simplebar-scrollbar {
+    background-color: white; 
+    border-radius: 8px; 
+    width: 5px;
+}
+
+
+.gallery{
+    height: 65vh;
+    width: 80vw;
+}

@@ -1,0 +1,30 @@
+.lupitaybuscador{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: last baseline;
+    border-bottom: 2px;
+    border-bottom-color: white;
+    border-bottom-style: solid ;
+    height: 8vh;
+    margin-left: 10vw;
+}
+
+.buscador{
+    width: 35vw;
+    height: 5vh;
+    /* margin: 19px 366px 2px 12px; */
+    margin-left: 5px;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    background-color: black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border: none;
+    }

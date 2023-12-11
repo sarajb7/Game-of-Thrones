@@ -1,0 +1,129 @@
+.Cronologynavbar{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+}
+.CronologyMain {
+    width: 90vw;
+    height: 70vh;
+    overflow:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    
+}
+
+.characterphoto {
+    height: 320px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.CronologyLeft{
+    width: 20vw;
+}
+.CronologyRight{
+    width: 20vw;
+    
+}
+
+.flechy{
+    width: 21px;
+    height: 25px;
+    object-fit: cover;
+    object-position: bottom;
+    margin-right: 0.4vw;
+}
+
+.Ellipse {
+    width: 40px;
+    height: 40px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50px;
+    margin-right: 0.4vw;
+    font-size: 1.4vw;
+    font-family: 'JuegoDeTronos';
+    cursor: pointer;
+  }
+
+.characterphoto{
+    width: 100px;
+    height: 100px;
+    object-fit:cover;
+    border-radius: 50px;
+    object-position: top;
+}
+
+.character-gallery-left{
+    border-right-style: solid;
+    border-color: white;
+    border-width: 2px;    
+}
+
+
+.tarjeta-left{
+    border-top-style: solid;
+    border-color: white;
+    border-width: 2px;
+    padding-bottom: 12vw;
+}
+
+.tarjeta-right{
+    border-top-style: solid;
+    border-color: white;
+    border-width: 2px;
+    margin-top: 12vw;
+}
+
+.characterage{
+    font-family: 'JuegoDeTronos';
+    font-size: 1.5vw;
+}
+
+.charactername{
+    font-family: 'JuegoDeTronos';
+    font-size: 0.8vw;
+}
+.empty{
+    height: 3vh;
+    border-right-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.emptier{
+    height: 3vh;
+}
+
+.flechydiv{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CronologyMain::-webkit-scrollbar{
+    -webkit-appearance: none;
+}
+.CronologyMain::-webkit-scrollbar:vertical {
+    width:5px;
+}
+.CronologyMain::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
+.CronologyMain::-webkit-scrollbar-track {
+    border-radius: 10px;  
+    background-color: #443d3d;
+}

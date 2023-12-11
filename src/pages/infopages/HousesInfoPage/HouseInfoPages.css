@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'JuegoDeTronos';
+    src: url("../../../assets/fonts/GameofThrones.ttf")
+}
+
+*{
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+.volveruwu{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-left: 158px;
+    align-items: center;
+    height: 12vh;
+    font-size: 1.5rem;
+}
+
+.flechita{
+    
+    width: 42px;
+    height: 29px;
+    margin: 0 16px 0 0;
+  object-fit: contain;
+}
+
+.menuderecha{
+    height:12vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 156px;
+}
+
+.casa{
+    width: 52px;
+    height: 49.4px;
+    margin: 7px 28px 7.6px 0;
+}
+
+.banderitaES{
+    width: 64px;
+  height: 64px;
+  margin: 0 29px 0 0;
+  object-fit: contain;
+}
+
+.banderitaEN{
+    width: 64px;
+  height: 64px;
+  margin: 0 0 0 0;
+  object-fit: contain;
+}
+
+.houseflag{
+    width: 267px;
+    height: 320px;
+}
+
+h3{
+    font-family: 'JuegoDeTronos';
+}
+
+h4{
+    font-family: 'JuegoDeTronos';
+    font-size: 1vw;
+    font-weight: lighter;
+}
+
+.houseName{
+    font-size: 2.25rem;
+    font-weight: lighter;
+}
+
+.main{
+   width: 100vw; 
+   height: 48vh;
+}
+
+.footer{
+    width: 80vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.smallData{
+    font-size: 1vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.cositas{
+    display: flex;
+    flex-direction: column;
+}

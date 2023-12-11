@@ -1,0 +1,21 @@
+.menuinicio {
+width: 100vw;
+display: flex;
+justify-content: space-around;
+height: 10vh;
+align-items: center;
+bottom: 0px;
+font-family: "JuegoDeTronos";
+font-weight: normal;
+position: fixed;
+
+}
+
+.boton {
+text-decoration: none;
+color: white;
+}
+
+.active{
+text-decoration: underline;
+}
